@@ -1,0 +1,28 @@
+.big {
+    border : 1px solid black;
+    width: 400px;
+    
+}
+
+button {
+border : 1px solid black;
+border-radius : 5px;
+text-align: center;
+background-color: gainsboro;
+padding: 15px;
+cursor: pointer;
+/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 글꼴 바꾸기*/
+/* line-height: 10px; 글 간격 */
+/* text-transform: capitalize; 글 모양 바꾸기*/
+/* word-spacing: 20px; 자간 */
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+
+
+
+
+
+

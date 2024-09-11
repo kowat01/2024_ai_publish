@@ -1,0 +1,48 @@
+.container{
+    border: 1px solid black;
+    width: 500px;
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+}
+
+
+
+.title{
+    background-color: white;
+    
+    
+    display: flex;
+    flex-direction:row;
+    
+    
+    
+    
+}
+
+
+
+button{
+    background-color: white;
+    cursor: pointer;
+    width: 200px;
+    
+    border: 1px solid white;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.fa-solid{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fa-brands{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

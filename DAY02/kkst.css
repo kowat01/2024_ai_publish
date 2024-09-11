@@ -1,0 +1,43 @@
+.title {
+    
+    
+    display: flex;
+    flex-direction:column;
+    
+
+}
+.album{
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    align-items: left;
+    
+
+}
+.one > img {
+width: 70%;
+height: 70%;
+
+
+
+}
+.one{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.two{
+    height: 100px;
+width: 100px;
+display: flex;
+flex-direction:row;
+justify-content: center;
+align-items: top;
+border-radius: 15px;
+cursor: pointer;
+}
