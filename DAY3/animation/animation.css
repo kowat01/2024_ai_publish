@@ -1,0 +1,16 @@
+.box{
+    color: skyblue;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+    transition: all 5s;
+    
+}
+
+.box:hover{
+    background-color: yellow;
+    font-size: 80px;
+    border-radius: 9999px;
+    opacity: 0;
+}

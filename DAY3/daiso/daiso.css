@@ -1,0 +1,92 @@
+.flame{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.title1{
+    font-size: xx-large;
+    font-weight: 600;
+}
+.title2{
+    color: gray;
+    font-weight: 600;
+}
+
+
+
+.box > img{
+width: 300px;
+height: 400px;
+cursor: pointer;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 1800px;
+    
+    gap : 25px;
+    
+}
+.box{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+
+.text{
+    font-weight: 900;
+    font-size: x-large;
+}
+button{
+
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 3px;
+    width: 50px;
+}
+
+.move1{
+    position: fixed;
+    top : 450px;
+    left : 270px;
+    z-index: 2;
+    font-size: x-large;
+}
+.move2{
+    position: fixed;
+    top : 450px;
+    left : 595px;
+    z-index: 2;
+    font-size: x-large;
+}
+.move3{
+    position: fixed;
+    top : 450px;
+    left : 920px;
+    z-index: 2;
+    font-size: x-large;
+}
+.move4{
+    position: fixed;
+    top : 450px;
+    left : 1250px;
+    z-index: 2;
+    font-size: x-large;
+}
+.move5{
+    position: fixed;
+    top : 450px;
+    left : 1575px;
+    z-index: 2;
+    font-size: x-large;
+}

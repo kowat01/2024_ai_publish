@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.up{
+    display: flex;
+    flex-direction: row;
+
+}
+.down{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    width: 300px;
+    height: 300px;
+}
+
+.pink{
+background-color: pink;
+
+}
+.purple{
+    background-color: purple;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+
+.move{
+    position: relative;
+    bottom: 100px;
+    left : 100px;
+
+}
+.move2{
+/* 절대적(크롬 브라우저 기준) */
+    position: absolute; 
+    top: 10px;
+    left: 10px;
+
+}
+body{
+
+height: 300vh;
+
+}
+
+.move3{
+/* 고정적 */
+    position: fixed;
+    top : 0px;
+    left : 0px;
+    z-index: 2;
+}
+
+.test{
+
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.test1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
