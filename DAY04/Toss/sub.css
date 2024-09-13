@@ -1,0 +1,21 @@
+.sub{
+    width: 100vw;
+    background-color: #f9fafb;
+}
+.sub_centeredbox{
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 150px 0px;
+}
+
+.sub_contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    font-size: 32px;
+    font-weight: 700;
+
+}
