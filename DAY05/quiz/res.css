@@ -1,0 +1,64 @@
+/* 1024px 이상 pc 가로-4*/
+/* 768-1024 tablet 2*2*/
+/* 768이하 mobile 세로 1줄 */
+
+    .bigbox{display: flex;
+        flex-direction: row;
+        
+    }
+        
+
+
+
+    .box{display: flex;
+        flex-direction: row;
+        
+    }
+   
+        
+
+    
+
+
+    .colorbox1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    }
+    .colorbox2{
+        width: 100px;
+        height: 100px;
+        background-color: orange;
+        }
+    .colorbox3{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            }    
+
+     .colorbox4{
+                width: 100px;
+                height: 100px;
+                background-color: green;
+                }        
+    @media screen and (max-width : 768px) {
+                    .bigbox{display: flex;
+                        flex-direction: column;}
+                
+                
+                
+                
+                    .box{display: flex;
+                        flex-direction: column;
+                    }
+                   
+                }        
+
+@media screen and (max-width : 1024px) {
+    .bigbox{display: flex;
+        flex-direction: column;}
+
+    
+
+
+}
